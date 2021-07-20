@@ -411,7 +411,12 @@
 
   .pagination__for-user-table.o__white, .saved-contents__modal__edit-overlay {background: var(--bg-main)}
 
-  input[type=text], input[type=email], .tagger__holder, .tagger__holder > input { background-color: var(--bg-3); }
+  input[type=text], input[type=email], .tagger__holder, .tagger__holder > input { background-color: var(--bg-3); color: var(--text-main); }
+
+.filter-block.o__error, .filter-block.o__error .filter-block__delete, .filter-block.o__error, .filter-block.o__error .filter-block__delete {background:var(--highlight); color: var(--highlight-text);}
+.filter-block.o__error *, .filter-block.o__error .filter-block__delete * {color: inherit !important;}
+.filter-block.o__error.o__clickable:hover, .filter-block.o__error.o__open, .filter-block.o__error.o__open:hover, .filter-block.o__error:hover, .filter-block.o__error.o__clickable:hover .filter-block__delete, .filter-block.o__error.o__open .filter-block__delete, .filter-block.o__error.o__open:hover .filter-block__delete, .filter-block.o__error:hover .filter-block__delete {background: var(--highlight-active)}
+
 .nav-vertical__search__input {color: var(--text-main) !important}
 
 .m__saved-replies__list-item.o__hoverable:hover, .m__saved-replies__list-item.o__selected, .m__saved-replies__list-item.o__selected .m__saved-replies__list-item__summary {
