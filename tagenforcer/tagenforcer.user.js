@@ -1,10 +1,11 @@
 // ==UserScript==
 // @name         Intercom Tag Enforcer
 // @namespace    https://gunnyarts.com
-// @version      2.08
+// @version      2.09
 // @description  Check Intercom tags
 // @author       Dennis Jensen
 // @match        https://app.intercom.com/*
+// @exclude      https://app.intercom.com/a/apps/f9x5v1mz/*
 // @grant        none
 // @updateURL	   https://gunnyarts.github.io/tb/tagenforcer/tagenforcer.user.js
 // @downloadURL  https://gunnyarts.github.io/tb/tagenforcer/tagenforcer.user.js
