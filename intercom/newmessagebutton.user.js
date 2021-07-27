@@ -2,7 +2,7 @@
 // @name         NewMessageButton
 // @namespace    https://gunnyarts.github.io/tb/
 // @version      1.00
-// @description  try to take over the world!
+// @description  Change existing message buttons to use the new New Conversation feature in Intercom
 // @author       You
 // @match        https://app.intercom.com/*
 // @icon         https://www.google.com/s2/favicons?domain=intercom.com
