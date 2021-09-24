@@ -5,8 +5,8 @@
 // @description  Clear multiple domains at once on the SSL list on ssl.new.php
 // @author       Dennis Jensen
 // @match        https://tools.zitcom.dk/ssl.new.php
-// @updateURL    http://gunnyarts.github.io/tb/ssltools/cleardomains.user.js
-// @downloadURL  http://gunnyarts.github.io/tb/ssltools/cleardomains.user.js
+// @updateURL    https://gunnyarts.github.io/tb/ssltools/cleardomains.user.js
+// @downloadURL  https://gunnyarts.github.io/tb/ssltools/cleardomains.user.js
 // @icon         https://www.google.com/s2/favicons?domain=zitcom.dk
 // @grant        none
 // ==/UserScript==
